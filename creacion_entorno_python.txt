@@ -1,0 +1,20 @@
+1.Crear el entorno
+haz una carpeta
+entra a ella en cmd
+
+virtualenv .
+
+2.-Activar
+cd .\Scripts\activate.bat
+activate
+(env_name)
+
+3.-crear el proyecto
+cd env
+django-admin startproject nameproject
+cd nameproject
+
+4.- instalar django dentro del proyecto.
+pip install django
+
+5.-python manage.py runserver
