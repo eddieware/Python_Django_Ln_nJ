@@ -68,7 +68,7 @@ while i < 30:
 
 
 
-    # if segundo_actual in segundos_magicos:
+    # if segundo_actual in segundos_magicos:sdfghjkl
     #     print("Segundo Magico!!!!")
     #
     #
