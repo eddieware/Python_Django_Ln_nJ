@@ -1,5 +1,5 @@
 vocales=['a','e','i','o','u']
-palabra='mama'
+palabra=input("Por favor introduce una palabra: ")
 vocales_encontradas=[]
 for ch in palabra:
     if ch in vocales:
