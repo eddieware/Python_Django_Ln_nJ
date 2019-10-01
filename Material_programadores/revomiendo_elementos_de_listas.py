@@ -13,5 +13,7 @@
 # print
 numeros = [1,2,3,4,5]
 numeros.insert(0,2)# insert es para insertar un caracter en una posicion
-print(numeros)
 
+
+numeros2 = numeros.copy()# para devolver una referencia de la lista existente mas no una copia
+print(numeros2)
