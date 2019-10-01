@@ -4,7 +4,7 @@
 #
 # print(numeros)
 #METODO POP!!!!!!!!!!!!!!!!!!!
-#numeros = [1,2,3,4,5]
+# numeros = [1,2,3,4,5]
 # numeros.pop(1)
 #METODO EXTEND PARA AGREGAR ELEMENTSO A LA LISTA
 #numeros = [1,2,3,4,5]
@@ -12,8 +12,19 @@
 # numeros.extend(numeros_20)
 # print
 numeros = [1,2,3,4,5]
-numeros.insert(0,2)# insert es para insertar un caracter en una posicion
+#numeros.insert(0,2)# insert es para insertar un caracter en una posicion
 
 
-numeros2 = numeros.copy()# para devolver una referencia de la lista existente mas no una copia
+#numeros2 = numeros.copy()# para devolver una referencia de la lista existente mas no una copia
+#print(numeros2)
+len(numeros)
+
+###############################################
+letras = list("aldo")
+print(letras)
+
+numeros2 = list(range(20))
 print(numeros2)
+
+for numero in numeros[::2]:
+    print(numero)
