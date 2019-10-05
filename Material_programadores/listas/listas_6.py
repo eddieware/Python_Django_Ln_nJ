@@ -24,4 +24,4 @@ SizeArray = len(asignaturas)
 for n in range(len(notas)):
     print ("En la asignatura :",asignaturas[n],"obtuviste", notas[n])
 
-print("Lo lograste prro")
+print("Lo lograste prro!!!!!")
