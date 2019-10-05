@@ -13,3 +13,4 @@ while palabra != 'f':  # mientras palabra es diferente de f se hace
         print("programa terminado")
 num_loteria.sort(reverse=True)
 print("los numeros ganadores son: ",num_loteria)
+

@@ -21,11 +21,3 @@ while palabra != 'f':  # mientras palabra es diferente de f se hace
 
 for i in range(len(nota)):
     print("yo estudio: ", asignatura[i], "y obtuve : ", nota[i])
-
-# for i in (asignatura): # for en [0 1 2]
-
-
-# num = (1,2,3,4,5)
-# letr = ("a", "b", "c", "d", "e")
-# for n in range(len(num)):
-# print num[n], letr[n]
