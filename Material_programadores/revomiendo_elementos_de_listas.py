@@ -17,14 +17,14 @@ numeros = [1,2,3,4,5]
 
 #numeros2 = numeros.copy()# para devolver una referencia de la lista existente mas no una copia
 #print(numeros2)
-len(numeros)
+# len(numeros)
 
 ###############################################
-letras = list("aldo")
+letras = list("perro")
 print(letras)
 
 numeros2 = list(range(20))
 print(numeros2)
 
-for numero in numeros[::2]:
+for numero in numeros[::1]:
     print(numero)

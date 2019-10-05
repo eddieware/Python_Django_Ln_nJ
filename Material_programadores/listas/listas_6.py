@@ -1,11 +1,25 @@
-subjects = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
-passed = []
-#La idea principal aqui es relacionar la subject con la nota en cada interacion asi n1 va con m1
-for subject in subjects:
-    score = float(input("¿Qué nota has sacado en " + subject + "?"))
-    if score >= 5:# Si la nota es mayor a 5
-        passed.append(subject)# se agregan las pasadas a passed
-        print(subject)
-for subject in passed:#Se recorre subject en passed, subject siene los elementos separados y passed la lista
-    subjects.remove(subject)# sew remueve
-print("Tienes que repetir " + str(subjects))# se imprime
+asignaturas = []
+notas = []
+passed=[]
+palabra = ''
+
+
+while palabra != 'f':
+    print("Dime la asignatura y la nota o presiona 'f' para salir")
+
+    palabra = input()  # palabra igual a entrada
+    if palabra != 'f':
+
+        asignaturas += [palabra]  # la lista crece incrementalmente agregando lo que se introduce por palabra
+        print("Dime La nota obtenida de 1 a 10")
+        palabra = input()
+        notas += [palabra]
+
+    else:
+        print("programa terminado")
+
+print(asignaturas, notas)
+SizeArray = len(asignaturas)
+
+for n in range(len(notas)):
+    print ("En la asignatura :",asignaturas[n],"obtuviste", notas[n])
