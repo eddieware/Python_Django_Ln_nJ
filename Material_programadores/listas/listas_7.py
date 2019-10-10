@@ -28,4 +28,6 @@ for n in listanuevapalabras:
     letras.remove(n)
 print(letras)
 
+# en n se almancena cada elemento de la lista y se va removiendo con la funcion en el for
+
 
